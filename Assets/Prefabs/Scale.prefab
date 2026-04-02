@@ -434,5 +434,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ecc73efaa2d92784c8dbd773cbf6001c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Scale
-  boxA: {fileID: 8842651219429919209}
-  boxB: {fileID: 7771901718524538143}
+  boxA: {fileID: 2788791042691663699}
+  boxB: {fileID: 6770838800207285111}

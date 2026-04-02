@@ -1,53 +1,43 @@
 using UnityEngine;
 
-public class Scale : MonoBehaviour
-{
-    public Transform boxA;
-    public Transform boxB;
+public class Scale : MonoBehaviour {
+    public Rigidbody2D boxA;
+    public Rigidbody2D boxB;
+    private Vector2 lastBoxAPos;
+    private Vector2 lastBoxBPos;
     
-    private Vector3 lastBoxAPos;
-    private Vector3 lastBoxBPos;
-    
-    void Start()
-    {
-        if (boxA == null || boxB == null)
-        {
-            Debug.LogError("Scale: BoxA and BoxB transforms must be assigned in the Inspector!");
+    void Start() {
+        if (boxA == null || boxB == null) {
+            Debug.LogError("Scale: BoxA and BoxB Rigidbody references must be assigned in the Inspector!");
             enabled = false;
             return;
         }
-        
         Debug.Log("Scale constraint active: BoxA and BoxB synced");
-        lastBoxAPos.y = boxA.position.y;
-        lastBoxBPos.y = boxB.position.y;
+        lastBoxAPos = boxA.position;
+        lastBoxBPos = boxB.position;
     }
 
-    void LateUpdate()
-    {
-        // Calculate how much each box moved this frame
-        Vector3 moveA = boxA.position - lastBoxAPos;
-        Vector3 moveB = boxB.position - lastBoxBPos;
-        
-        // Pulley constraint: if one box moves, the other should move in the opposite direction
-        // Net Y movement should be zero: moveA.y + moveB.y = 0
+    void FixedUpdate() {
+        Vector2 moveA = boxA.position - lastBoxAPos;
+        Vector2 moveB = boxB.position - lastBoxBPos;
+
         float totalYMove = moveA.y + moveB.y;
         
-        if (Mathf.Abs(totalYMove) > 0.0001f)
-        {
-            // Split the correction: each box moves half the difference
-            // But in opposite directions to create the mirror effect
-            Vector3 correctionA = boxA.position;
-            Vector3 correctionB = boxB.position;
+        if (Mathf.Abs(totalYMove) > 0.0001f) {
+            Vector2 targetA = boxA.position;
+            Vector2 targetB = boxB.position;
             
-            correctionA.y -= totalYMove * 0.5f;
-            correctionB.y += totalYMove * 0.5f;  // Opposite direction!
+            targetA.y -= totalYMove * 0.5f;
+            targetB.y -= totalYMove * 0.5f;
             
-            boxA.position = correctionA;
-            boxB.position = correctionB;
+            boxA.MovePosition(targetA);
+            boxB.MovePosition(targetB);
+
+            lastBoxAPos = targetA;
+            lastBoxBPos = targetB;
+        } else {
+            lastBoxAPos = boxA.position;
+            lastBoxBPos = boxB.position;
         }
-        
-        // Store positions for next frame
-        lastBoxAPos.y = boxA.position.y;
-        lastBoxBPos.y = boxB.position.y;
     }
 }

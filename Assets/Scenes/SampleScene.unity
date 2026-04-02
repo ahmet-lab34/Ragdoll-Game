@@ -853,10 +853,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 877881562285583219, guid: dfca3ddf630e0e9489f6d76597e3a75f, type: 3}
+      propertyPath: m_BodyType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1986144751281128484, guid: dfca3ddf630e0e9489f6d76597e3a75f, type: 3}
+      propertyPath: m_BodyType
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2103692568363752285, guid: dfca3ddf630e0e9489f6d76597e3a75f, type: 3}
       propertyPath: cam
       value: 
       objectReference: {fileID: 519420031}
+    - target: {fileID: 2690104816282113149, guid: dfca3ddf630e0e9489f6d76597e3a75f, type: 3}
+      propertyPath: m_BodyType
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2927807928488915337, guid: dfca3ddf630e0e9489f6d76597e3a75f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.39935
@@ -897,9 +909,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5690537994591585253, guid: dfca3ddf630e0e9489f6d76597e3a75f, type: 3}
+      propertyPath: m_TagString
+      value: Climable
+      objectReference: {fileID: 0}
     - target: {fileID: 6505466013090099667, guid: dfca3ddf630e0e9489f6d76597e3a75f, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 7156853783135958623, guid: dfca3ddf630e0e9489f6d76597e3a75f, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8334707297810907011, guid: dfca3ddf630e0e9489f6d76597e3a75f, type: 3}
       propertyPath: cam
