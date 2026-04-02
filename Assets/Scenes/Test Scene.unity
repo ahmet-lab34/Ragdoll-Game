@@ -529,15 +529,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3900990218296053930, guid: dfca3ddf630e0e9489f6d76597e3a75f, type: 3}
       propertyPath: m_ConnectedAnchor.y
-      value: -0.8205972
+      value: -0.8205963
       objectReference: {fileID: 0}
+    - target: {fileID: 4626853242212295693, guid: dfca3ddf630e0e9489f6d76597e3a75f, type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4626853242212295693, guid: dfca3ddf630e0e9489f6d76597e3a75f, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -4020645311067009390, guid: b701ce2bcefa94742ace3983c797e0d7, type: 3}
     - target: {fileID: 4632870404955760332, guid: dfca3ddf630e0e9489f6d76597e3a75f, type: 3}
       propertyPath: m_ConnectedAnchor.x
       value: -0.6320001
       objectReference: {fileID: 0}
     - target: {fileID: 4632870404955760332, guid: dfca3ddf630e0e9489f6d76597e3a75f, type: 3}
       propertyPath: m_ConnectedAnchor.y
-      value: 0.36207074
+      value: 0.36207145
       objectReference: {fileID: 0}
     - target: {fileID: 4771299376053604823, guid: dfca3ddf630e0e9489f6d76597e3a75f, type: 3}
       propertyPath: m_ConnectedAnchor.y
@@ -565,7 +573,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6716654882055764154, guid: dfca3ddf630e0e9489f6d76597e3a75f, type: 3}
       propertyPath: m_ConnectedAnchor.y
-      value: 0.40549675
+      value: 0.40549454
       objectReference: {fileID: 0}
     - target: {fileID: 7097258221635296776, guid: dfca3ddf630e0e9489f6d76597e3a75f, type: 3}
       propertyPath: m_IsActive
@@ -589,7 +597,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7659858634497067441, guid: dfca3ddf630e0e9489f6d76597e3a75f, type: 3}
       propertyPath: m_ConnectedAnchor.y
-      value: -0.30046177
+      value: -0.30046153
       objectReference: {fileID: 0}
     - target: {fileID: 7838748123656287120, guid: dfca3ddf630e0e9489f6d76597e3a75f, type: 3}
       propertyPath: m_ConnectedAnchor.x
@@ -597,7 +605,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7838748123656287120, guid: dfca3ddf630e0e9489f6d76597e3a75f, type: 3}
       propertyPath: m_ConnectedAnchor.y
-      value: 0.3613292
+      value: 0.3613299
       objectReference: {fileID: 0}
     - target: {fileID: 8149209554033089474, guid: dfca3ddf630e0e9489f6d76597e3a75f, type: 3}
       propertyPath: m_ConnectedAnchor.x
@@ -613,7 +621,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8269363438169327981, guid: dfca3ddf630e0e9489f6d76597e3a75f, type: 3}
       propertyPath: m_ConnectedAnchor.y
-      value: 0.5000004
+      value: 0.50000006
+      objectReference: {fileID: 0}
+    - target: {fileID: 8508990091589086358, guid: dfca3ddf630e0e9489f6d76597e3a75f, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.7454
+      objectReference: {fileID: 0}
+    - target: {fileID: 8508990091589086358, guid: dfca3ddf630e0e9489f6d76597e3a75f, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.7454
+      objectReference: {fileID: 0}
+    - target: {fileID: 8508990091589086358, guid: dfca3ddf630e0e9489f6d76597e3a75f, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.7454
+      objectReference: {fileID: 0}
+    - target: {fileID: 8508990091589086358, guid: dfca3ddf630e0e9489f6d76597e3a75f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 8508990091589086358, guid: dfca3ddf630e0e9489f6d76597e3a75f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.67
       objectReference: {fileID: 0}
     - target: {fileID: 8675123038324449120, guid: dfca3ddf630e0e9489f6d76597e3a75f, type: 3}
       propertyPath: m_TagString
@@ -625,7 +653,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9042079959960873324, guid: dfca3ddf630e0e9489f6d76597e3a75f, type: 3}
       propertyPath: m_ConnectedAnchor.x
-      value: 0.65
+      value: 0.6500001
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
