@@ -18,8 +18,8 @@ public class Scale : MonoBehaviour
         }
         
         Debug.Log("Scale constraint active: BoxA and BoxB synced");
-        lastBoxAPos = boxA.position;
-        lastBoxBPos = boxB.position;
+        lastBoxAPos.y = boxA.position.y;
+        lastBoxBPos.y = boxB.position.y;
     }
 
     void LateUpdate()
@@ -40,14 +40,14 @@ public class Scale : MonoBehaviour
             Vector3 correctionB = boxB.position;
             
             correctionA.y -= totalYMove * 0.5f;
-            correctionB.y -= totalYMove * 0.5f;  // Opposite direction!
+            correctionB.y += totalYMove * 0.5f;  // Opposite direction!
             
             boxA.position = correctionA;
             boxB.position = correctionB;
         }
         
         // Store positions for next frame
-        lastBoxAPos = boxA.position;
-        lastBoxBPos = boxB.position;
+        lastBoxAPos.y = boxA.position.y;
+        lastBoxBPos.y = boxB.position.y;
     }
 }
