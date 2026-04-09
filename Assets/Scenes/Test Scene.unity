@@ -302,7 +302,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3486091210052980694, guid: f114a5c59bc5d5041810dad77aa5ba6a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.29
+      value: -10.13
       objectReference: {fileID: 0}
     - target: {fileID: 3486091210052980694, guid: f114a5c59bc5d5041810dad77aa5ba6a, type: 3}
       propertyPath: m_LocalPosition.y
@@ -364,7 +364,7 @@ GameObject:
   - component: {fileID: 660307713}
   - component: {fileID: 660307712}
   m_Layer: 0
-  m_Name: huhconnected_0
+  m_Name: forTILES
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1521,12 +1521,20 @@ PrefabInstance:
       value: Bouncy
       objectReference: {fileID: 0}
     - target: {fileID: 2044536250667815288, guid: 4e50034ea9db6a448844d0eaa97c3ffc, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.55211896
+      objectReference: {fileID: 0}
+    - target: {fileID: 2044536250667815288, guid: 4e50034ea9db6a448844d0eaa97c3ffc, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.6084
+      objectReference: {fileID: 0}
+    - target: {fileID: 2044536250667815288, guid: 4e50034ea9db6a448844d0eaa97c3ffc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -14.82
+      value: -1.59
       objectReference: {fileID: 0}
     - target: {fileID: 2044536250667815288, guid: 4e50034ea9db6a448844d0eaa97c3ffc, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.23
+      value: -3.32
       objectReference: {fileID: 0}
     - target: {fileID: 2044536250667815288, guid: 4e50034ea9db6a448844d0eaa97c3ffc, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1559,6 +1567,34 @@ PrefabInstance:
     - target: {fileID: 2044536250667815288, guid: 4e50034ea9db6a448844d0eaa97c3ffc, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5963635288317667472, guid: 4e50034ea9db6a448844d0eaa97c3ffc, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -3742276627912332833, guid: c31b5ed15e79f2b47807d07884e69fa3, type: 3}
+    - target: {fileID: 5990183914086178437, guid: 4e50034ea9db6a448844d0eaa97c3ffc, type: 3}
+      propertyPath: m_Size.x
+      value: 9.344879
+      objectReference: {fileID: 0}
+    - target: {fileID: 5990183914086178437, guid: 4e50034ea9db6a448844d0eaa97c3ffc, type: 3}
+      propertyPath: m_Size.y
+      value: 2.893231
+      objectReference: {fileID: 0}
+    - target: {fileID: 5990183914086178437, guid: 4e50034ea9db6a448844d0eaa97c3ffc, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.33074474
+      objectReference: {fileID: 0}
+    - target: {fileID: 5990183914086178437, guid: 4e50034ea9db6a448844d0eaa97c3ffc, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.43867558
+      objectReference: {fileID: 0}
+    - target: {fileID: 5990183914086178437, guid: 4e50034ea9db6a448844d0eaa97c3ffc, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 11.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 5990183914086178437, guid: 4e50034ea9db6a448844d0eaa97c3ffc, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 4.21
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
