@@ -67,5 +67,5 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "Ragdoll-Game.slnx"
+    "dotnet.defaultSolution": "Ragdoll Game.slnx"
 }
