@@ -438,7 +438,7 @@ Transform:
   m_GameObject: {fileID: 660307711}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.11, y: 4.31, z: 0}
+  m_LocalPosition: {x: 9.34, y: 4.54, z: 0}
   m_LocalScale: {x: 0.58752, y: 0.58752, z: 0.58752}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -606,11 +606,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1949022554201760482, guid: ddfc3bc8dc1fa9a47a96baf6b97d88b2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.54
+      value: 6.62
       objectReference: {fileID: 0}
     - target: {fileID: 1949022554201760482, guid: ddfc3bc8dc1fa9a47a96baf6b97d88b2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.04
+      value: 1.02
       objectReference: {fileID: 0}
     - target: {fileID: 1949022554201760482, guid: ddfc3bc8dc1fa9a47a96baf6b97d88b2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1574,12 +1574,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 6552618441187910732, guid: 74445f2b5d4a95e4aa7b9ce061ed7445, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.561748
+      objectReference: {fileID: 0}
+    - target: {fileID: 6552618441187910732, guid: 74445f2b5d4a95e4aa7b9ce061ed7445, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.364248
+      objectReference: {fileID: 0}
+    - target: {fileID: 6552618441187910732, guid: 74445f2b5d4a95e4aa7b9ce061ed7445, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 21.54
+      value: 16.41
       objectReference: {fileID: 0}
     - target: {fileID: 6552618441187910732, guid: 74445f2b5d4a95e4aa7b9ce061ed7445, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.51
+      value: -3.23
       objectReference: {fileID: 0}
     - target: {fileID: 6552618441187910732, guid: 74445f2b5d4a95e4aa7b9ce061ed7445, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1617,6 +1625,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Climable Wall
       objectReference: {fileID: 0}
+    - target: {fileID: 8809388739940117243, guid: 74445f2b5d4a95e4aa7b9ce061ed7445, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 7704220112040631481, guid: 66ee4e826f7eba04b80fae4756eac65f, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
